@@ -38,6 +38,7 @@ function App() {
     })
   }
   const handleSignOut = () =>{
+    // console.log("Clicked");
     signOut(auth)
     .then(() => {
       setUser({}); 
